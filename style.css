@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.main-section-input-wrapper {
+.main-input-wrap {
   display: flex;
 }
 ul {
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="main-section__input"] {
+label[for="main__input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="main-section__input"] {
+label[for="main__input"] {
   display: block;
   margin: 0 0 20px;
 }
-#main-section__input {
+#main__input {
   width: 318px;
 }
 
@@ -119,12 +119,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.delete-button img {
+button.delete-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-button img:hover {
+button.delete-btn img:hover {
   transform: rotateZ(0);
 }
 
