@@ -1,4 +1,5 @@
 /* Basic Style */
+
 * {
   background-color: #f8f8f8;
   color: #333;
@@ -16,7 +17,8 @@
   width: 100%;
 }
 
-.header .more-information-link {
+.header 
+.more-information-link {
   font-family: fantasy, cursive;
 }
 
@@ -44,12 +46,14 @@
   display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks, 
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.input, .btn{
+.input, 
+.btn{
   outline: none;
 }
 
@@ -138,7 +142,7 @@
   width: 226px;
 }
 
-.delete-img{
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -157,15 +161,17 @@
 
 /* Edit Task */
 
-.li .input-text {
+.li 
+.input-text {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode 
+.input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label{
+.edit-mode label {
   display: none;
 }
